@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.catalog" name="Catalog" version="1.0" provider-name="nomius">
+    <requires>
+        <import addon="xbmc.python" version="1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Simple csv catalog</summary>
+        <description>This script read a csv file with the format: disc|Movie name|files and display the information in a table</description>
+        <platform>all</platform>
+    </extension>
+</addon>
